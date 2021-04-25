@@ -20,7 +20,9 @@ class App extends Component {
       })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        this.setState({
+          users: data.results,
+        });
       })
       .catch((error) => console.log(`${error} - Coś poszło nie tak...`));
   };

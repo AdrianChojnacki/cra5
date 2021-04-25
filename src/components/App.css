@@ -5,3 +5,8 @@
 .app button {
   font-size: 20px;
 }
+
+.app li {
+  font-size: 24px;
+  list-style-type: none;
+}
